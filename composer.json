@@ -1,0 +1,26 @@
+{
+  "name": "torreytsui/m2-blog",
+  "descruption": "Magento2 blog",
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "extra": {
+    "map": [
+      [
+        "*",
+        "M2/Blog"
+      ]
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ampersandhq/m2"
+    }
+  ]
+}
