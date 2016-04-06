@@ -6,7 +6,7 @@
   "extra": {
     "map": [
       [
-        "*",
+        "app",
         "M2/Blog"
       ]
     ]
@@ -22,5 +22,8 @@
       "type": "vcs",
       "url": "https://github.com/ampersandhq/m2"
     }
-  ]
+  ],
+  "require": {
+    "ampersandhq/m2": "dev-master"
+  }
 }
